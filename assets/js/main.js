@@ -444,10 +444,6 @@
 							$main._show(id, true);
 					});
 
-		// Copyright year.
-			var $copyright = $('#footer .copyright');
-			if ($copyright.length)
-				$copyright.text('\u00A9 ' + new Date().getFullYear() + ' JRS Studios');
 
 		// Research tabs.
 			window.setResearchTab = function(tabId, updateHash) {
